@@ -1,0 +1,43 @@
+{
+    "bookings": [
+        {
+            "bookingid": 501,
+            "bookingStatus": "CONFIRMED",
+            "bookingDate": "2026-11-05",
+            "passenger": {
+                "passengerId": 1001,
+                "name": "neeraj",
+                "email": "neerajtata1527@gmail.com",
+                "contactNumbers": [
+                    "+91-8790262960",
+                    "+91-8341162960"
+                ]
+            },
+            "flight": {
+                "flightNumber": "IA024",
+                "airline": "airindia",
+                "origination": "HYD",
+                "destination": "BLR"
+            }
+        },
+        {
+            "bookingid": 502,
+            "bookingStatus": "PENDING",
+            "bookingDate": "2026-11-03",
+            "passenger": {
+                "passengerId": 1002,
+                "name": "pramod",
+                "email": "pramodtata1527@gmail.com",
+                "contactNumbers": [
+                    "+91-9494062459"
+                ]
+            },
+            "flight": {
+                "flightNumber": "IA025",
+                "airline": "airindia",
+                "origination": "BOM",
+                "destination": "BLR"
+            }
+        }
+    ]
+}
